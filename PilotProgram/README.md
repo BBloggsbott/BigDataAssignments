@@ -19,3 +19,5 @@ scala> df.groupBy("CARAVAN").count().select("*").show()
 |      1|  586|
 +-------+-----+
 ```
+
+This bias could be the reason for the poor results.
